@@ -45,21 +45,4 @@ a::before {
 	margin-right: 10px;
 }
 
-#button {
-	display: inline-block; /*display inline não deixa colocar altura e largura*/
-	background-color: #F25A70;
-    padding-top:18px;
-    padding-bottom: 18px;
-	padding-left: 20px;
-	padding-right: 20px;
-	box-shadow: 5px 5px 0px black; /*sombra na borda */
-	margin-right: 0;
 
-}
-
-#button:hover {
-	background: #F2D7D9; 
-	color: black;
-	transition: transform 100ms linear opacity 200ms ease-in-out;
-	transform: scale(1.08);
-}
