@@ -1,0 +1,27 @@
+.action {
+	display: inline-flex; /*display inline flex  foi necessario para alinhar a lista*/
+	align-items: center;
+	color: white; /*branco */
+	font-size: 20px;
+	font-weight: 500;
+	text-decoration: none;
+	margin-right: 30px;
+}
+
+.action:hover {
+	background: #F2D7D9;
+	color: black;
+	text-decoration: underline;
+	transition: transform 100ms linear opacity 200ms ease-in-out;
+	transform: scale(1.08);
+}
+
+
+}
+.action::before {
+	content: "";
+	background-color: #F25A70;
+	width: 10px;
+	height: 10px;
+	margin-right: 10px;
+}
