@@ -5,3 +5,10 @@
 	border-bottom: 10px solid #7C5E99;
 	text-align: center;
 }
+
+dl {
+	display: flex;
+	text-align: center;
+	padding-left: 500px;
+	padding-top: 20px;
+}
